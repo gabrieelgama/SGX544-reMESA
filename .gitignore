@@ -1,0 +1,36 @@
+# Vendor blobs and binary artifacts
+*.so
+*.so.*
+*.a
+*.o
+*.bin
+*.img
+*.tar
+*.tar.gz
+*.zip
+
+# Ghidra / reverse engineering workspace
+*.gpr
+*.rep
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.gdb
+*.ghidra
+
+# Builds, logs, caches
+build/
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.core
+core
+
+# Local notes and private captures
+private/
+local/
